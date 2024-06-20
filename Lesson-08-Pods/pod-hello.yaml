@@ -10,6 +10,7 @@ metadata:
 spec:
   containers:
     - name : container-hello
+#      image: httpd:latest
       image: nginx:latest
       ports:
         - containerPort: 80
