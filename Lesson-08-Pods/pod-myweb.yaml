@@ -11,7 +11,7 @@ metadata:
     env  : prod
     app  : main
     tier : frontend
-    owner: DenisAstahov
+    owner: vova
 spec:
   containers:
     - name : container-apache
